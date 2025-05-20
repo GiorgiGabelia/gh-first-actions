@@ -1,0 +1,10 @@
+name: worflow-1
+on: workflow_dispatch
+jobs: 
+  first-job: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello
+        run: echo "Hello"
+      - name: Print bye
+        run: echo "Bye"
